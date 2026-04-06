@@ -24,3 +24,8 @@ dist-ssr
 *.sw?
 
 
+public
+src/assets
+Day02/lec/
+Day02/*.pdf
+Day02/*.url
