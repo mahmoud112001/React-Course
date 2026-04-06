@@ -22,7 +22,7 @@ export default function App() {
 
   const toggleTask = (id) => {
     setTasks((prev) =>
-      prev.map((t) => (t.id === id ? { ...t, completed: !t.completed } : t)),
+      prev.map((t) => (t.id === id ? { ...t, completed: !t.completed } : t))
     );
   };
 
@@ -32,7 +32,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-linear-to-br from-purple-50 to-indigo-100">
+      <div className="min-h-screen bg-gray-100">
         <Routes>
           <Route path="/" element={<Home tasks={tasks} />} />
           <Route
