@@ -16,14 +16,14 @@ export default function AddTaskInput({ onAdd }) {
         value={value}
         onChange={(e) => setValue(e.target.value)}
         onKeyDown={(e) => e.key === "Enter" && handleAdd()}
-        placeholder="Add a task..."
-        className="flex-1 border border-gray-200 rounded-xl px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-400 bg-gray-50"
+        placeholder="Write a new task..."
+        className="flex-1 border-2 border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-green-500"
       />
       <button
         onClick={handleAdd}
-        className="bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-xl text-sm transition-colors"
+        className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded text-sm"
       >
-        <i className="fa-solid fa-plus"></i>
+        Add
       </button>
     </div>
   );
