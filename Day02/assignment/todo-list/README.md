@@ -18,7 +18,13 @@ This project was built as a practical assignment during the React module at ITI,
 - Persistent storage via `localStorage`
 
 ---
+## 📸 Screenshots
 
+| Home Page | Tasks Management | Developer Profile |
+|---|---|---|
+| ![Home Page](./screenshots/26d38fab-cb01-46fc-b56f-272c19155b56.jfif) | ![Tasks Page](./screenshots/e3258464-952e-4846-bc70-3371997f76bc.jfif) | ![Profile Page](./screenshots/e4d5bd19-0e92-4f51-99cd-3042cdd3479e.jfif) |
+
+---
 ## 🎨 Theme
 
 Green · Clean · Minimal — intentionally kept simple and functional.
